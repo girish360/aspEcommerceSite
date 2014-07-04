@@ -1,0 +1,290 @@
+*{
+	margin:0;
+	padding:0;
+}
+.cisti{
+	clear:both;
+}
+body{
+	/*background-image:url('images/page_bg.gif');*/
+	background-color: white;
+	margin-bottom:100px;
+}
+#pageWrap{
+	width:1350px;
+	margin:0 auto;
+
+}
+#centerWrap{
+	width: 960px;
+	margin: 0 auto;
+
+}
+#headerBar{
+
+}
+#loginBar{
+	float: left;
+	color: white;
+	background-color: #353132;
+	width: 650px;
+	height: 32px;
+	padding-left: 200px;
+}
+#loginBar a{
+	text-decoration: none;
+	color: #f1423f;
+}
+#basketBar{
+	float: left;
+	color: white;
+	background-color: #353132;
+	width: 300px;
+	height: 32px;
+	padding-right: 200px;
+}
+#basketBar a{
+	text-decoration: none;
+	color: #f1423f;
+}
+#logoSearchBar{
+	height: 90px;
+	width: 100%;
+}
+#siteLogo{
+	
+}
+#siteLogo img{
+	float: left;
+	width: 200px;
+}
+#searchBar{
+	float: right;
+	margin-top: 25px;
+	
+}
+#searchBar input{
+	width: 250px;
+	height: 30px;
+	margin-right: 5px;
+	
+}
+#headerMain{
+	
+}
+#mainMenu{
+	font-size: 20px;
+}
+#mainMenu ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#mainMenu ul li{
+	
+	float: left;
+
+}
+#mainMenu ul li a{
+	color: #353132;
+	display: block;
+	min-width: 100px;
+	height: 30px;
+	padding-top: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#mainMenu ul li:first-child a{
+	background-image: url("images/mainMenuBackground.png");
+	color:white;
+}
+#mainMenu ul li a:hover{
+	background-image: url("images/mainMenuBackground.png");
+	color:white;
+}
+#meniSlider{
+	float:left;
+    width:645px;
+
+}
+#newsSidebar{
+	float: left;
+	margin-left: 25px;
+}
+#newsHeader{
+	background-image:url('images/newsBackground.jpg');
+	width: 280px;
+	height: 35px;
+	color: white;
+}
+#newsHeader a{
+	color: white;
+	text-decoration: none;
+}
+.news{
+	margin: 5px 5px;
+}
+.news img{
+	float:left;
+}
+.newsTitle{
+	float:left;
+	margin-left: 10px;
+}
+.newsText{
+	font-size: 12px;
+	float: left;
+	margin-left: 12px;
+}
+.newsMoreButton{
+	background-color: #353132;
+	width: 72px;
+	height: 20px; 
+	float:right;
+}
+.newsMoreButton a{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+#centerLeft{
+	float:left;
+}
+#sidebarCategories{
+	margin-top: 5px;
+}
+#sidebarCategories h4{
+	background-color: #343131;
+	color: white;
+	font-size: 18px;
+	padding: 5px 0px 5px 10px;
+	height: 20px;
+}
+#sidebarCategories ul{
+	list-style-type: none;
+}
+#sidebarCategories ul li a{
+	text-decoration: none;
+	color:#908e8e;
+	position: relative;
+}
+#sidebarBestseller h4{
+	background-color: #343131;
+	color: white;
+	font-size: 18px;
+	padding: 5px 0px 5px 10px;
+	height: 20px;
+}
+#sidebarBestscore h4{
+	background-color: #343131;
+	color: white;
+	font-size: 18px;
+	padding: 5px 0px 5px 10px;
+	height: 20px;
+}
+#sidebarBrands h4{
+	background-color: #343131;
+	color: white;
+	font-size: 18px;
+	padding: 5px 0px 5px 10px;
+	height: 20px;
+}
+#centerRight{
+	float:left;
+	width: 710px;
+	margin-left: 70px;
+}
+#productsNew{
+
+}
+.product{
+	float:left;
+	margin-left:35px;
+	margin-right:35px;
+}
+.product p{
+	width:160px;
+}
+.prikazSlikaProizvoda{
+	float:left;
+	margin-right:35px;
+}
+.prikazSlikaProizvoda img{
+	width:100px;
+    height:100px;
+}
+.productsTitleBar{
+	color: white;
+	margin:5px auto;
+	background-color: #353132;
+	width: 710px;
+	height: 30px;
+}
+.productsTitleBar span{
+	margin-top: 5px;
+}
+.productsTitleBar a{
+	margin-right: 10px;
+	margin-top: 5px;
+	float:right;
+	color: #5f5d5d;
+	text-decoration: none;
+}
+.productsSortBar{
+	margin:3px;
+}
+.filterButton{
+	background-color: #e44141;
+	float:right;
+	padding: 3px;
+}
+.filterButton a{
+	text-decoration: none;
+	color: white;
+}
+.buyButton{
+	float: left;
+	background-color: #343131;
+	padding: 4px;
+}
+.buyButton a{
+	text-decoration: none;
+	color:white;
+}
+.priceButton{
+	float: left;
+	color:white;
+	background-color: #e44141;
+	padding: 4px;
+}
+#footer{
+	background-color: #353132;
+	color: white;
+	height: 75px;
+}
+#footerSiteLinks{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#footerSiteLinks ul{
+
+	list-style-type: none;
+}
+#footerSiteLinks ul li{
+	display: inline;
+}
+#footerSiteLinks ul li a{
+	text-decoration: none;
+	color: white;
+}
+#footerSocialLinks{
+	float: right;
+}
+#footerSocialLinks a img{
+	width: 20px;
+	height: 20px;
+	margin-right:50px;
+	margin-top: 20px;
+}

@@ -1,0 +1,84 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="glavna.master.cs" Inherits="auditorne.glavna" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Moj Portal</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+ <form id="form1" runat="server">
+ <asp:ScriptManager ID="ScriptManager1" runat="server">
+ <Services>
+   <asp:ServiceReference Path="~/MojWebServis.asmx" />
+ </Services>
+ </asp:ScriptManager>
+   <div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="index.aspx">Moj portal </a></h1>
+			<p> Dizajn<a href="#">ASP</a></p>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+    <asp:Menu ID="GlavniMeni" runat="server" 
+                DataSourceID="SiteMapDataSourceGlavniMeni" Orientation="Horizontal" 
+                RenderingMode="List" EnableTheming="False" IncludeStyleBlock="False" 
+                SkipLinkText="" StaticDisplayLevels="2">
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSourceGlavniMeni" runat="server" /> 
+		<!--<ul>
+			<li><a href="index.aspx">Početna</a></li>
+			<li><a href="blog.aspx">Blog</a></li>
+			<li><a href="slike.aspx">Slike</a></li>
+			<li><a href="kontakt.aspx">Kontakt</a></li>
+			<li><a href="login.aspx">Login</a></li>
+			<li><a href="#">Moderator</a></li>
+            <li><a href="/administrator/index.aspx">Administrator</a></li>
+		</ul>-->
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="banner">&nbsp;</div>
+		<div id="content">
+           <div id="datumVreme">
+               <asp:Label ID="LabelDatumVreme" runat="server" Text=""></asp:Label>
+           </div>
+           <div id="appMessage" runat="server"></div>
+		   <asp:ContentPlaceHolder ID="centralniDeo" runat="server">
+          </asp:ContentPlaceHolder>
+		</div>
+		<!-- end #content -->
+		<div id="sidebar">
+            <asp:LoginView ID="LoginView" runat="server">
+             <LoggedInTemplate>
+                 <asp:LoginName ID="LoginName" runat="server" />
+                 <asp:LoginStatus ID="LoginStatus" runat="server" LogoutText="Izloguj se" 
+                     onloggedout="LoginStatus_LoggedOut" />
+             </LoggedInTemplate>
+            </asp:LoginView>
+			 <asp:ContentPlaceHolder ID="levaStrana" runat="server">
+             </asp:ContentPlaceHolder>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+	<div id="footer">
+		<p>Copyright (c) 2008 Sitename.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>.</p>
+	</div>
+	<!-- end #footer -->
+</div>
+   
+    
+        
+        
+    
+    </form>
+</body>
+</html>

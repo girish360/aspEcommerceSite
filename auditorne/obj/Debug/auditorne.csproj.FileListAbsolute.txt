@@ -1,0 +1,20 @@
+c:\users\markos\documents\visual studio 2010\Projects\auditorne\auditorne\bin\auditorne.dll
+c:\users\markos\documents\visual studio 2010\Projects\auditorne\auditorne\bin\auditorne.pdb
+c:\users\markos\documents\visual studio 2010\Projects\auditorne\auditorne\obj\Debug\ResolveAssemblyReference.cache
+c:\users\markos\documents\visual studio 2010\Projects\auditorne\auditorne\obj\Debug\auditorne.dll
+c:\users\markos\documents\visual studio 2010\Projects\auditorne\auditorne\obj\Debug\auditorne.pdb
+C:\Users\markos\Desktop\auditorne\auditorne\bin\auditorne.dll
+C:\Users\markos\Desktop\auditorne\auditorne\bin\auditorne.pdb
+C:\Users\markos\Desktop\auditorne\auditorne\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\markos\Desktop\auditorne\auditorne\obj\Debug\auditorne.dll
+C:\Users\markos\Desktop\auditorne\auditorne\obj\Debug\auditorne.pdb
+C:\Users\Filip\Desktop\auditorne\auditorne\bin\auditorne.dll
+C:\Users\Filip\Desktop\auditorne\auditorne\bin\auditorne.pdb
+C:\Users\Filip\Desktop\auditorne\auditorne\obj\Debug\auditorne.csprojResolveAssemblyReference.cache
+C:\Users\Filip\Desktop\auditorne\auditorne\obj\Debug\auditorne.dll
+C:\Users\Filip\Desktop\auditorne\auditorne\obj\Debug\auditorne.pdb
+C:\Users\Filip\Desktop\aspSajt\auditorne\bin\auditorne.dll
+C:\Users\Filip\Desktop\aspSajt\auditorne\bin\auditorne.pdb
+C:\Users\Filip\Desktop\aspSajt\auditorne\obj\Debug\auditorne.csprojResolveAssemblyReference.cache
+C:\Users\Filip\Desktop\aspSajt\auditorne\obj\Debug\auditorne.dll
+C:\Users\Filip\Desktop\aspSajt\auditorne\obj\Debug\auditorne.pdb

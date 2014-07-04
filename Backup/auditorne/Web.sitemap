@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/index.aspx" title="Pocetna"  description="Pocetna strana">
+    <siteMapNode url="~/blog.aspx" title="Blog"  description="Blog postovi" />
+    <siteMapNode url="~/slike.aspx" title="Slike"  description="" />
+    <siteMapNode url="~/kontakt.aspx" title="Kontakt"  description="" />
+    <siteMapNode url="~/login.aspx" title="Login"  description="" />
+    <siteMapNode url="" title="Administracija"  description="" roles="Administrator">
+      <siteMapNode url="~/Administrator/fajl.aspx" title="Fajlovi"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/galerija.aspx" title="Galerija"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/kategorija.aspx" title="Kategorija"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/link.aspx" title="Linkovi"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/meni.aspx" title="Meni"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/slika.aspx" title="Slika"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/strana.aspx" title="Strana"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/tipstrane.aspx" title="Tip strane"  description="" roles="Administrator" />
+      <siteMapNode url="~/Administrator/korisnici.aspx" title="Korisnici"  description="" roles="Administrator" />
+    </siteMapNode>
+    <siteMapNode url="" title="Moderacija"  description="" roles="Moderator">
+      <siteMapNode url="~/Moderator/index.aspx" title="Moderacija"  description="" roles="Moderator" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

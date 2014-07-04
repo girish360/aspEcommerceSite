@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/slike/reklama1.png</ImageUrl>
+    <NavigateUrl>http://www.erste.rs</NavigateUrl>
+    <AlternateText>Erste Banka</AlternateText>
+    <Impressions>100</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/slike/reklama2.jpg</ImageUrl>
+    <NavigateUrl>http://www.cocacola.com</NavigateUrl>
+    <AlternateText>CocaCola</AlternateText>
+    <Impressions>50</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/slike/reklama3.jpg</ImageUrl>
+    <NavigateUrl>http://www.telenor.rs</NavigateUrl>
+    <AlternateText>Telenor</AlternateText>
+    <Impressions>70</Impressions>
+  </Ad>
+</Advertisements>
